@@ -7,10 +7,15 @@ ACCOUNTS=[
 ]
 
 [DOCUMENTATION]
+ORG_NAME="MayoCoin"
 ORG_URL="https://remarkablemayonaise.github.io/"
 ORG_LOGO="https://remarkablemayonaise.github.io/mayocoinsmall.png"
 ORG_DESCRIPTION="The Most Delicious Meme Coin on Stellar"
 ORG_OFFICIAL_EMAIL="realmayocoin@gmail.com"
+
+[[PRINCIPALS]]
+name="Remarkable Mayonaise"
+email="realmayocoin@gmail.com"
 
 [[CURRENCIES]]
 code="MayoCoin"
@@ -18,6 +23,6 @@ issuer="GC5TLOYRAEXMHSJ5H3CZYZVT22IZSDANO2COJLSCSVMZZRS7QUPXM6QT"
 display_decimals=6
 name="MayoCoin"
 desc="The Most Delicious Meme Coin on Stellar"
-conditions="There will be only 18778580398 MayoCoins in existence."
+conditions="There will be only 18 778 580 398 MayoCoins in existence."
 image="https://remarkablemayonaise.github.io/mayocoinsmall.png"
 fixed_number=18778580398
